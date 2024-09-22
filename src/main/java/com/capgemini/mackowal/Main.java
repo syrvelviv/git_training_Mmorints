@@ -6,6 +6,11 @@ public class Main {
         app.get("/", ctx->ctx.result("Hello world!"));
         app.get("/user1", ctx->ctx.result("Adam Nowak"));
         app.get("/user2",ctx->ctx.result("Jan Nowak"));
+<<<<<<< HEAD
 		app.get("/user4",ctx->ctx.result("Adam Nowak"));
+=======
+		app.get("/user3",ctx->ctx.result("Jan Kowalski"));
+
+>>>>>>> 2244ff6 (adding user 3)
     }
 }
